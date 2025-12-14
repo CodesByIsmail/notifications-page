@@ -154,6 +154,16 @@ border-radius: 5px;
   display: none;
 }
 
+.comment__notification{
+  justify-content: space-between;
+}
+
+.comment__not{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 /* ACTIVE STATES */
 .message__body:hover{
   border: none;
@@ -181,4 +191,21 @@ border-radius: 5px;
   color: hsl(228, 45%, 44%);
   }
   
-  
+  @media screen and (min-width: 730px) {
+    
+    body{
+      background: var(--Navy-50);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    
+    .container{
+max-width: 40rem;
+    background: var(--White);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    }
+  }
