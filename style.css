@@ -155,6 +155,11 @@ border-radius: 5px;
 }
 
 /* ACTIVE STATES */
+.message__body:hover{
+  border: none;
+  background: var(--Blue-100);
+}
+
 
 .mark__all:active{
   color: var(--Blue-950);
